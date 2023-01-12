@@ -17,7 +17,7 @@ public class OrderItem {
     private final UUID productID;
 
     @NotNull
-    private final UUID quantity;
+    private final int quantity;
 
     @NotNull
     private final BigDecimal price;
